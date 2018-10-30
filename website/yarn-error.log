@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn run version 0.7.0
+  /usr/local/bin/node /usr/local/bin/yarn start
 
 PATH: 
   /Users/Qolzam/.rvm/gems/ruby-2.4.1/bin:/Users/Qolzam/.rvm/gems/ruby-2.4.1@global/bin:/Users/Qolzam/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/CrossPack-AVR/bin:/usr/local/git/bin:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/Qolzam/.rvm/gems/ruby-2.4.1/bin:/Users/Qolzam/.rvm/gems/ruby-2.4.1@global/bin:/Users/Qolzam/.rvm/rubies/ruby-2.4.1/bin:/Users/Qolzam/.rvm/bin
@@ -5069,7 +5069,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c docusaurus-version 0.7.0
+  Arguments: -c docusaurus-start
   Directory: /Users/Qolzam/projects/react-social-docs/website
   Output:
   
