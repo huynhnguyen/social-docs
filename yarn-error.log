@@ -1,17 +1,17 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\amir\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+  /usr/local/bin/node /usr/local/bin/yarn start
 
 PATH: 
-  D:\terminal\vendor\conemu-maximus5\ConEmu\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\amir\AppData\Local\Programs\Python\Python37-32\;C:\Users\amir\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\HashiCorp\Vagrant\bin;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\amir\.windows-build-tools\python27\;C:\Users\amir\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\amir\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\amir\AppData\Roaming\npm\node_modules\.bin;D:\terminal\bin;D:\terminal\vendor\conemu-maximus5\ConEmu\Scripts;D:\terminal\vendor\conemu-maximus5;D:\terminal\vendor\conemu-maximus5\ConEmu;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\amir\AppData\Local\Programs\Python\Python37-32\;C:\Users\amir\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\HashiCorp\Vagrant\bin;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Ruby24-x64\bin;C:\Users\amir\AppData\Local\Microsoft\WindowsApps;C:\Users\amir\AppData\Local\GitHubDesktop\bin;C:\Users\amir\AppData\Local\Microsoft\WindowsApps;C:\Users\amir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\mingw64;C:\Program Files\Git\usr\bin;D:\terminal;C:\Users\amir\AppData\Roaming\npm
+  /Users/Qolzam/.rvm/gems/ruby-2.4.1/bin:/Users/Qolzam/.rvm/gems/ruby-2.4.1@global/bin:/Users/Qolzam/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/CrossPack-AVR/bin:/usr/local/git/bin:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/Qolzam/.rvm/gems/ruby-2.4.1/bin:/Users/Qolzam/.rvm/gems/ruby-2.4.1@global/bin:/Users/Qolzam/.rvm/rubies/ruby-2.4.1/bin:/Users/Qolzam/.rvm/bin
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  10.12.0
+  10.1.0
 
 Platform: 
-  win32 x64
+  darwin x64
 
 npm manifest: 
   No manifest
@@ -23,9 +23,9 @@ Lockfile:
   No lockfile
 
 Trace: 
-  Error: Couldn't find a package.json file in "D:\\projects\\react-social-docs"
-      at new MessageError (C:\Users\amir\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
-      at C:\Users\amir\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:40048:15
+  Error: Couldn't find a package.json file in "/Users/Qolzam/projects/react-social-docs"
+      at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:40048:15
       at Generator.next (<anonymous>)
-      at step (C:\Users\amir\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
-      at C:\Users\amir\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13

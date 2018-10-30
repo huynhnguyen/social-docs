@@ -1,8 +1,9 @@
 ---
-title: "Actions"
-id: actions
+title: Actions
+id: version-0.7.0-actions
 sidebar_label: Actions
 custom_edit_url: https://github.com/red-gold/react-social-network/blob/v0.7.0/README.md
+original_id: actions
 ---
 
 This layer is responsible for implementing actions for entities. [Actions](http://redux.js.org/docs/basics/Actions.html) are payloads of information that send data from your application to your store. They are the only source of information for the store.
@@ -15,7 +16,7 @@ We provide some actions to authorize a user. The authorize actions include singu
 
 ----
 
-```
+```javascript
 dbLogin = (email, password) => {}
 ```
 
