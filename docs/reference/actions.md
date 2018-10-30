@@ -16,20 +16,6 @@ We provide some actions to authorize a user. The authorize actions include singu
 
 ----
 
-```js
-{
-  ...
-  highlight: {
-    theme: 'default',
-    hljs: function(hljs) {
-      hljs.registerLanguage('galacticbasic', function(hljs) {
-        // ...
-      });
-    }
-  }
-}
-```
-
 This action check a user by `email` and `password` to authorize a user to login website. 
 
 ```js
