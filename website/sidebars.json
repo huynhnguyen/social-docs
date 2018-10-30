@@ -1,0 +1,40 @@
+{
+  "docs": {
+    "Getting Started": [
+      "get_started",
+      "built_with",
+      "install",
+      "motivation"
+    ],
+    "User Guid": [
+      "user/admin",
+      "user/install_firebase",
+      "user/requirements",
+      "user/updates"
+    ],
+    "Developer Guid": [
+      "developer/architecture",
+      "developer/contribution",
+      "developer/add_new_page_menu",
+      "developer/architecture",
+      "developer/copy_right_notice",
+      "developer/data_access_layer",
+      "developer/data_validation",
+      "developer/localization",
+      "developer/new_route",
+      "developer/ioc",
+      "developer/release_notes",
+      "developer/road_map",
+      "developer/theme"
+    ],
+    "Reference": [
+      "reference/actions",
+      "reference/sagas",
+      "reference/reducers",
+      "reference/redux",
+      "reference/services",
+      "reference/components",
+      "reference/tests"
+    ]
+  }
+}
