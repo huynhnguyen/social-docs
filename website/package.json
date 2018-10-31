@@ -4,7 +4,7 @@
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
     "build": "docusaurus-build",
-    "publish-gh-pages": "docusaurus-publish",
+    "publish-gh-pages": "export GIT_USER=qolzam && export CURRENT_BRANCH=gh-pages && export USE_SSH=true && docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version"
