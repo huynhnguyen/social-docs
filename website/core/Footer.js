@@ -86,10 +86,10 @@ class Footer extends React.Component {
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/logos/red-gold.png`}
+            src={`${this.props.config.baseUrl}img/logos/red-gold-horizontal.png`}
             alt="Facebook Open Source"
             width="170"
-            height="45"
+            height="49"
           />
         </a>
         <section className="copyright">{this.props.config.copyright}</section>

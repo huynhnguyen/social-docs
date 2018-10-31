@@ -15,7 +15,7 @@ const users = [
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/logos/red-gold.png',
-    infoLink: 'https://www.facebook.com',
+    infoLink: 'https://red-gold.github.io/react-social-network/',
     pinned: true,
   },
 ];
@@ -24,9 +24,9 @@ const siteConfig = {
   title: 'React Social', // Title for your website.
   tagline: 'Building a smart social',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  // baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
+    url: 'https://red-gold.github.io',
     baseUrl: '/react-social-network/',
 
   // Used for publishing and more
