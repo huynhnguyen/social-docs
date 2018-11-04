@@ -1,18 +1,21 @@
 language: node_js
 node_js:
-  - "node"
+- node
 sudo: false
 before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.5.1
-  - export PATH=$HOME/.yarn/bin:$PATH
+- curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.5.1
+- export PATH=$HOME/.yarn/bin:$PATH
 cache:
   yarn: true
 install:
-  - cd ./website && yarn install && yarn build && cd ..
+- cd ./website && yarn install && yarn build && cd ..
 script:
-  - 
+- 
 deploy:
   skip_cleanup: true
   provider: firebase
   token:
-      secure: "{FIRE_SECRET_KEY}"
+    secure: "{FIRE_SECRET}"
+env:
+  global:
+    secure: BLpDAbMKh8aII0nQWIPjYDW/l9iZUCYXabmjpMS/WhHwGSww7SZtlE5hnPOPVm8mlDwwVS3JHG6udrl4wTsHPRXsjs1qWAQEkWVSPc9PBqdjzgDttKk1y5/2Fp/9fnC/ohXamZDqMTXnXel05mHp+zLj6ll4fyLT/0UkhctVUZw8EBOf7UOeif/6zlCSCOLomyw2MS3c+vqP/13y5auS4z3gNtjOSQos+oO4QUQ2kRusF8lAe23BNEw+PK6In3FsZhWxMQjn1HJVkEhZrDF4+Q18PqoNNV+g2nESHW+yIHbkXrGAfKK5YSZ++fn67vF7e/iP/IAhiA1lBoCBp7blR4HgNnTkG4NvlxYuSoGz7MYbZht8r8wzyMRG0UufB9aCMJlqtOGSV+eVrmSC5T8O9Wgr7VKgQqDTYKRX6+N3H2QJsqaZu2mNLRfLHFZKHojGIp+xATx6J+pjSWJCTBnEps+MOedruMIjnlDJL2q1q2Y+MgX7i4AIRNXuL3ksL4ArVaWvNp4M8SdkyLOWakETIRF8S0B+OvdQbh6PrDLRxH9CTat8CiTGJottJa2uUDzJ9YXQiIwe9bQkuZLRrImX9z8M5wDE0IpIhw8vhH3YzCX1FG+ODqMYwsORRp7swcr2dXBTeM97Gvavz2wPTzypTmqgX9bpYdWE7UvQkjUJ2aY=
