@@ -16,4 +16,3 @@ deploy:
   provider: firebase
   token:
       secure: "{FIRE_SECRET_KEY}"
-  project: "rs-doc"
