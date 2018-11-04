@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "website/build/react-social-network",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
